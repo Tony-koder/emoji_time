@@ -1,0 +1,25 @@
+@font-face {
+  font-family: appetite;
+  src: url(appetite.regular.ttf);
+}
+
+body {
+  background-image: linear-gradient(#2d00f7, #b100e8, #f20089);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: appetite;
+  font-size: 30px;
+  text-align: center;
+}
+
+#cats {
+  padding: 10px 17px;
+}
